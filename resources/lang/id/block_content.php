@@ -1,0 +1,37 @@
+<?php
+return [
+    'id' => 'ID',
+    'name' => 'Nama',
+    'position' => 'Lokasi',
+    'page' => 'Halaman',
+    'type' => 'Jenis',
+    'text' => 'Konten',
+    'status' => 'Status',
+    'admin' => [
+        'title' => 'Blok konten',
+        'create_success' => 'Ciptakan kesuksesan baru!',
+        'edit_success' => 'Pembaruan berhasil!',
+        'list' => 'Blok konten',
+        'id' => 'ID',
+        'status' => 'Status',
+        'action' => 'action',
+        'delete' => 'Hapus',
+        'edit' => 'edit',
+        'add_new' => 'Tambah baru',
+        'export' => 'Ekspor',
+        'refresh' => 'Segarkan',
+        'result_item' => 'Showing <b>:item_from</b> to <b>:item_to</b> of <b>:item_total</b> items</b>',
+        'sort' => 'Pengatur',
+        'search' => 'mengatur',
+        'add_new_title' => 'Buat tata letak',
+        'add_new_des' => 'Buat tata letak baru',
+        'select_position' => 'Pilih lokasi',
+        'select_page' => 'Pilih halaman',
+        'helper_html' => 'Basic HTML content.',
+        'helper_view' => 'File dalam direktori "resources/views/block".',
+        'helper_module' => 'File trong "app/Modules/Block/Controllers". Modul harus memiliki fungsi render().',
+        'sort_order' => [
+        ],
+
+    ],
+];

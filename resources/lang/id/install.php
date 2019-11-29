@@ -1,0 +1,53 @@
+<?php
+return [
+    'info' => [
+        'about' => 'Selamat datang di Aplikasi Kave(PHP & Mysql).',
+        'about_pro' => 'Pemesanan makanan Gratis',
+        'about_us' => '- Để hiểu thêm về chúng tôi, hãy ghéUntuk mempelajari lebih lanjut tentang kami, silakan kunjungi <a target="_new" href="https://s-cart.org/">Beranda Kave</a>',
+        'document' => '- Panduan instalasi <a target="_new" href="https://s-cart.org/installation.html">TẠI ĐÂY</a>',
+        'version' => 'Versi',
+        'terms' => '<span style="color:red">*</span> Silakan baca ketentuan sebelum pemasangan <a target="_new" href="https://s-cart.org/license.html">DI SINI</a>.',
+        'terms_pro' => '<span style="color:red">*</span>Silakan baca ketentuan sebelum pemasangan <a target="_new" href="https://s-cart.org/pro.html">DI SINI</a>.',
+    ],
+    'env' => [
+        'process' => 'Membuat file .env',
+        'error_open' => 'Tidak dapat membuka file .env.example',
+        'process_sucess' => 'Buat file .env berhasil!',
+        'error' => 'Kesalahan saat membuat file .env',
+    ],
+    'key' => [
+        'process' => 'Menghasilkan kunci API',
+        'process_sucess' => 'Pembuatan kunci API yang sukses!',
+        'error' => 'Kesalahan saat membuat kunci API',
+    ],
+    'database' => [
+        'process' => 'Pengaturan data',
+        'process_sucess' => 'Instalasi data berhasil!',
+        'error' => 'Kesalahan saat menginstal data',
+    ],
+    'permission' => [
+        'process' => 'Tetapkan izin pada folder',
+        'process_sucess' => 'Menetapkan izin sukses!',
+        'error' => 'Kesalahan saat mengatur izin folder',
+    ],
+    'validate' => [
+        'database_port_number' => 'Port data adalah angka',
+        'database_port_required' => 'Port data diperlukan',
+        'database_host_required' => 'Diperlukan alamat server data',
+        'database_name_required' => 'Nama data harus diisi',
+        'database_user_required' => 'Akun koneksi data diperlukan',
+        'admin_url_required' => 'Diperlukan jalur ke umpan admin',
+    ],
+    'installing_button' => 'Menginstal',
+    'database_host' => 'Server data',
+    'database_port' => 'Port data',
+    'database_name' => 'Nama data',
+    'database_user' => 'Pengguna terhubung',
+    'database_password' => 'Koneksi kata sandi',
+    'admin_url' => 'Jalur admin',
+    'title' => 'Pasang S-Cart',
+    'installing' => 'Mulai instalasi',
+    'rename_error' => 'Tidak dapat mengganti nama file install.php. Silakan hapus atau ganti nama secara manual!',
+    'terms' => '<span style="color:red">*</span> Setuju dengan aturan instalasi',
+    'requirement_check' => 'Periksa kondisi',
+];

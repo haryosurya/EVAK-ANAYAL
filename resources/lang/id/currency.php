@@ -1,0 +1,50 @@
+<?php
+return [
+    'manager'       => 'Manajemen',
+    'code'          => 'Kode',
+    'name'          => 'Nama',
+    'symbol'        => 'simbol',
+    'precision'     => 'Jumlah tempat',
+    'exchange_rate' => 'Nilai tukar',
+    'thousands'     => 'Ribuan Pemisah',
+    'status'        => 'Status',
+    'sort'          => 'Jumlah',
+    'symbol_first'  => 'Notasi saat ini dulu',
+    'admin'         => [
+        'title'          => 'Mata uang',
+        'create_success' => 'Buat Item Baru sukses!',
+        'edit_success'   => 'Pembaruan berhasil!',
+        'list'           => 'Daftar mata uang',
+        'id'             => 'ID',
+        'status'         => 'Status',
+        'action'         => 'Untuk bertindak',
+        'delete'         => 'Hapus',
+        'edit'           => 'Edit',
+        'add_new'        => 'Tambah Baru',
+        'export'         => 'Ekspor',
+        'refresh'        => 'Segarkan',
+        'result_item'    => 'Prngaturan',
+        'search'         => 'Prn',
+        'add_new_title'  => 'Buat mata uang',
+        'add_new_des'    => 'Buat te baru uangệ',
+
+        'search_place'   => 'Temukan nama atau kode',
+        'choose_icon'    => 'Temukan nama atau koden',
+
+        'sort_order'     => [
+            'id_asc'    => 'ID asc',
+            'id_desc'   => 'ID desc',
+            'name_asc'  => 'Tên a-z',
+            'name_desc' => 'Tên z-a',
+        ],
+
+        'sort_order'     => [
+            'id_asc'     => 'ID asc',
+            'id_desc'    => 'ID desc',
+            'name_asc'   => 'Tên a-z',
+            'name_desc'  => 'Tên z-a',
+            'email_asc'  => 'Email a-z',
+            'email_desc' => 'Email z-a',
+        ],
+    ],
+];

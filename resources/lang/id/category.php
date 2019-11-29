@@ -1,0 +1,40 @@
+<?php
+return [
+    'id'          => 'ID',
+    'name'        => 'Nama',
+    'keyword'     => 'Kata kunci',
+    'description' => 'Deskripsi',
+    'image'       => 'Gambar',
+    'parent'      => 'Daftar nama Induk',
+    'top'         => 'Tampilkan situs web',
+    'status'      => 'Status',
+    'sort'        => 'Jumlah',
+    'help_top'    => 'Tampilkan kategori ini di luar situs web',
+    'admin'       => [
+        'title'           => 'Manajemen katalog',
+        'create_success'  => 'Berhasil membuat item!',
+        'edit_success'    => 'Pengeditan item berhasil!',
+        'list'            => 'Daftar kategori',
+        'action'          => 'Aksi',
+        'delete'          => 'Hapus',
+        'edit'            => 'Edit',
+        'add_new'         => 'Tambah baru',
+        'add_new_title'   => 'Buat Judul Baru',
+        'add_new_des'     => 'Buat kategori baru',
+        'export'          => 'Ekspor',
+        'refresh'         => 'Segarkan',
+        'result_item'     => 'Showing <b>:item_from</b> to <b>:item_to</b> of <b>:item_total</b> items</b>',
+        'sort'            => 'Jumlah',
+        'select_category' => 'Pilih satu kategori',
+
+        'sort_order'      => [
+            'id_asc'    => 'ID asc',
+            'id_desc'   => 'ID desc',
+            'name_asc'  => 'nama a-z',
+            'name_desc' => 'nama z-a',
+        ],
+        'search'          => 'Mencari',
+        'search_place'    => 'Mencari nama atau ID',
+          ],
+
+];

@@ -1,0 +1,27 @@
+<?php
+
+return [
+    'manager'     => 'Manajer ekstensi',
+    'shipping'    => 'pengiriman',
+    'payment'     => 'Fungsi pembayaran',
+    'total'       => 'Fungsi total',
+    'other'       => 'Fungsi lainnya',
+    'code'        => 'Saya sedang coding',
+    'name'        => 'Nama fungsi',
+    'sort'        => 'Pesanan',
+    'action'      => 'Aksi',
+    'status'      => 'Manipulasi',
+    'enable'      => 'Aktifkan',
+    'disable'     => 'Tidak aktif',
+    'remove'      => 'Dihapus',
+    'install'     => 'Instal',
+    'config'      => 'Konfigurasi',
+    'actived'     => 'Aktif',
+    'disabled'    => 'Mati',
+    'not_install' => 'Tidak terpasang',
+    'auth'        => 'Penulis',
+    'version'     => 'Versi',
+    'link'        => 'Rekanan',
+    'image'       => 'Gambar',
+    'empty'       => 'Belum ada ekstensi!',
+];

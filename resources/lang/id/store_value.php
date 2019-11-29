@@ -1,0 +1,28 @@
+<?php
+return [
+    'id' => 'ID',
+    'sort' => 'Jumlah',
+    'status' => 'Status',
+    'admin' => [
+        'title' => 'Store value',
+        'create_success' => 'Buat item sukses baru!',
+        'edit_success' => 'Edit keberhasilan item!',
+        'list' => 'Konfigurasikan daftar info',
+        'field' => 'Field',
+        'value' => 'Value',
+        'config_mode' => 'Mode konfigurasi',
+        'config_display' => 'Konfigurasi tampilan',
+        'status' => 'Status',
+        'action' => 'Action',
+        'edit' => 'Edit',
+        'export' => 'Ekspor',
+        'delete' => 'Hapus',
+        'refresh' => 'Segarkan',
+        'result_item' => 'Showing <b>:item_from</b> to <b>:item_to</b> of <b>:item_total</b> items</b>',
+        'sort' => 'Jumlah',
+        'search' => 'Mencari',
+        'add_new' => 'Tambah baru',
+        'add_new_title' => 'Tambah config',
+        'add_new_des' => 'Buat  config Baru',
+    ],
+];
