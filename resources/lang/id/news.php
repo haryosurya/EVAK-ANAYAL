@@ -29,8 +29,8 @@ return [
         'sort_order' => [
             'id_asc' => 'ID asc',
             'id_desc' => 'ID desc',
-            'title_asc' => 'Teks đề a-z',
-            'title_desc' => 'Teks đề z-a',
+            'title_asc' => 'Teks Judul a-z',
+            'title_desc' => 'Teks Judul z-a',
         ],
         'search' => 'Pencarian',
         'search_place' => 'Temukan judul atau ID Blog / Berita',

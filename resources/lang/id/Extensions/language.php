@@ -23,5 +23,5 @@ return [
     'version'     => 'Versi',
     'link'        => 'Rekanan',
     'image'       => 'Gambar',
-    'empty'       => 'Belum ada ekstensi!',
+    'empty'       => 'Kosong',
 ];

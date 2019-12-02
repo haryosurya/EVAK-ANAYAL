@@ -1,7 +1,7 @@
 <?php
 
 return [
-    'title_login'             => 'Masuk ke akun Anda !',
+    'title_login'             => 'Masuk ke Akun!',
     'title_register'          => 'Registrasi baru!',
     'register_success'        => 'Pendaftaran Sukses!',
     'order_list'              => 'Daftar Order',

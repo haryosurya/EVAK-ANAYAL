@@ -3,8 +3,8 @@ return [
     'info' => [
         'about' => 'Selamat datang di Aplikasi Kave(PHP & Mysql).',
         'about_pro' => 'Pemesanan makanan Gratis',
-        'about_us' => '- Để hiểu thêm về chúng tôi, hãy ghéUntuk mempelajari lebih lanjut tentang kami, silakan kunjungi <a target="_new" href="https://s-cart.org/">Beranda Kave</a>',
-        'document' => '- Panduan instalasi <a target="_new" href="https://s-cart.org/installation.html">TẠI ĐÂY</a>',
+        'about_us' => '- Untuk mempelajari lebih lanjut tentang kami, silakan kunjungi <a target="_new" href="https://s-cart.org/">Beranda Kave</a>',
+        'document' => '- Panduan instalasi <a target="_new" href="https://s-cart.org/installation.html">DI SINI</a>',
         'version' => 'Versi',
         'terms' => '<span style="color:red">*</span> Silakan baca ketentuan sebelum pemasangan <a target="_new" href="https://s-cart.org/license.html">DI SINI</a>.',
         'terms_pro' => '<span style="color:red">*</span>Silakan baca ketentuan sebelum pemasangan <a target="_new" href="https://s-cart.org/pro.html">DI SINI</a>.',

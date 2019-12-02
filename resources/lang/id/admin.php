@@ -6,11 +6,11 @@ return [
     'login' => 'Masuk',
     'logout' => 'Keluar',
     'setting' => 'Pengaturan',
-    'setting_account' => 'Edit informasinya',
+    'setting_account' => 'Pengaturan Akun',
     'name' => 'Name',
     'username' => 'Username',
     'password' => 'Password',
-    'password_confirmation' => 'Password confirmation',
+    'password_confirmation' => 'Konfirmasi Password',
     'remember_me' => 'Ingatkan saya',
     'user_setting' => 'Pengaturan pengguna',
     'avatar' => 'Pengaturan pengguna',
@@ -60,7 +60,7 @@ return [
     'refresh_succeeded' => 'Segarkan selesai!',
     'login_successful' => 'Berhasil masuk',
 
-    'choose' => 'Chọn',
+    'choose' => 'Pilih',
     'choose_file' => 'Pilih file',
     'choose_image' => 'Pilih gambar',
 
@@ -70,7 +70,7 @@ return [
 
     'administrator' => 'Administrator',
     'roles' => 'Grup',
-    'permissions' => 'Hak',
+    'permissions' => 'Izin',
     'slug' => 'Slug',
 
     'created_at' => 'Dibuat di',
@@ -99,7 +99,7 @@ return [
         'method' => 'Metode HTTP',
         'path' => 'Jalur HTTP',
     ],
-    'all_methods_if_empty' => 'All methods if empty',
+    'all_methods_if_empty' => 'Semua metode jika kosong',
 
     'all' => 'Semua',
     'current_page' => 'Kondisi saat ini',
@@ -133,7 +133,7 @@ return [
     'paypal_client_id' => 'ID Klien',
     'coupon_allow_guest' => 'Gunakan kupon tanpa login',
     'paypal_secret' => 'Secret',
-    'paypal_mode' => 'Paypal mode',
+    'paypal_mode' => 'Kode Paypal',
     'paypal_log' => 'Hidupkan log',
     'paypal_path_log' => 'Log file path (dalam penyimpanan)',
     'paypal_status' => 'Aktifkan modul Paypal',

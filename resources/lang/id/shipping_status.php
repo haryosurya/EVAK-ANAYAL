@@ -19,6 +19,6 @@ return [
         'search'         => 'Pencariam' ,
         'add_new'        => 'Tambah',
         'add_new_title'  => 'Tambah Judul Baru',
-        'add_new_des'    => 'Create a new shipping status',
+        'add_new_des'    => 'Buat status pengiriman baru',
     ],
 ];

@@ -39,8 +39,8 @@ return [
         'sort_order'     => [
             'id_asc'     => 'ID asc',
             'id_desc'    => 'ID desc',
-            'name_asc'   => 'Tên a-z',
-            'name_desc'  => 'Tên z-a',
+            'name_asc'   => 'Nama a-z',
+            'name_desc'  => 'Nama z-a',
             'email_asc'  => 'Email a-z',
             'email_desc' => 'Email z-a',
         ],

@@ -1,6 +1,6 @@
 <?php
 return [
-    'name'  => 'Tên trạng thái',
+    'name'  => 'Nama status',
     'admin' => [
         'title'          => 'Status pemesanan',
         'create_success' => 'Ciptakan kesuksesan baru!',

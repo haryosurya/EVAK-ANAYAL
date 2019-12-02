@@ -34,7 +34,7 @@ return [
             'name_asc'  => 'Name asc',
             'name_desc' => 'Name desc',
         ],
-        'search'             => 'Search',
+        'search'             => 'Pencarian',
         'search_place'       => '',
     ],
 
