@@ -2,9 +2,9 @@
     <!-- Logo -->
     <a href="{{ route('admin.home') }}" class="logo">
         <!-- mini logo for sidebar mini 50x50 pixels -->
-        <span class="logo-mini"><b>{!! sc_config('ADMIN_LOGO', sc_config('ADMIN_NAME')) !!}</b></span>
+        <span  class="logo-mini"><b>{!! sc_config('ADMIN_LOGO', sc_config('ADMIN_NAME')) !!}</b></span>
         <!-- logo for regular state and mobile devices -->
-        <span class="logo-lg">{!! sc_config('ADMIN_LOGO')!!} <b> {!! sc_config('ADMIN_NAME') !!}</b></span>
+        <span class="logo-lg pull-left" >{!! sc_config('ADMIN_LOGO')!!} <b> {!! sc_config('ADMIN_NAME') !!}</b></span>
     </a>
     <!-- Header Navbar: style can be found in header.less -->
     <nav class="navbar navbar-static-top">

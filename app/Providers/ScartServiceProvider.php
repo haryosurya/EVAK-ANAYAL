@@ -73,7 +73,7 @@ class ScartServiceProvider extends ServiceProvider
             //End Admin prefix
 
             //Upload prefix
-            config(['lfm.url_prefix' => config('app.admin_prefix') . '/uploads']);
+            // config(['lfm.url_prefix' => config('app.admin_prefix') . '/uploads']);
             //End Upload prefix
 
         } catch (\Exception $e) {

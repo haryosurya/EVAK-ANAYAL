@@ -4,25 +4,29 @@
     <section class="sidebar">
       <!-- Sidebar user panel -->
       <div class="user-panel">
-        <div class="pull-left image">
-          <img src="{{ Admin::user()->avatar }}" class="img-circle" alt="User Image">
+          <div class="pull-left image">
+            {{-- <img src="{{ Admin::user()->avatar }}" class="img-circle" alt="User Image"> --}}
+            <img src="{{ asset(Admin::user()->avatar) }}" class="img-circle" alt="User Image">
+            <br>
+            <a href="#"><i class="fa fa-circle text-success"></i> Online </a>
+            <br>
+            <p>
+              {{ Admin::user()->name }}
+            </p>
+          </div>
         </div>
-        <div class="pull-left info">
-          <p>{{ Admin::user()->name }}</p>
-          <a href="#"><i class="fa fa-circle text-success"></i> Online</a>
-        </div>
-      </div>
-
-      <!-- search form -->
-      <form action="#" method="get" class="sidebar-form">
-        <div class="input-group">
-          <input type="text" name="q" class="form-control" placeholder="Search...">
-          <span class="input-group-btn">
+      <div>
+        <!-- search form -->
+        <form action="{{ route('admin_order.index') }}" method="get" class="sidebar-form">
+            <div class="input-group">
+              <input type="text" name="keyword" class="form-control" placeholder="{{trans('order.search')}}">
+              <span class="input-group-btn">
                 <button type="submit" name="search" id="search-btn" class="btn btn-flat"><i class="fa fa-search"></i>
                 </button>
               </span>
+            </div>
+          </form>
         </div>
-      </form>
       <!-- /.search form -->
       <!-- sidebar menu: : style can be found in sidebar.less -->
       <ul class="sidebar-menu" data-widget="tree">
