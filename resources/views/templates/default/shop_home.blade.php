@@ -43,7 +43,7 @@
           </div><!--features_items-->
 
           <div class="recommended_items"><!--recommended_items-->
-            <h2 class="title text-center">{{ trans('front.products_hot') }}</h2>
+            <h2 class="title text-center">{{ trans('front.products_hot') }} </h2>
 
             <div id="recommended-item-carousel" class="carousel slide" data-ride="carousel">
               <div class="carousel-inner">
@@ -66,15 +66,15 @@
                           </div>
 
                       @if ($product_hot->price != $product_hot->getFinalPrice() && $product_hot->kind != SC_PRODUCT_GROUP)
-                      <img src="{{ asset('templates/'.sc_store('template').'/images/home/sale.png') }}" class="new" alt="" />
+                      <img src="{{ asset('templates/'.sc_store('template').'/images/home/sale.png') }}" class="new" alt="" width='50px' />
                       @elseif($product_hot->type == SC_PRODUCT_NEW)
-                      <img src="{{ asset('templates/'.sc_store('template').'/images/home/new.png') }}" class="new" alt="" />
+                      <img src="{{ asset('templates/'.sc_store('template').'/images/home/new.png') }}" class="new" alt="" width='50px' />
                       @elseif($product_hot->type == SC_PRODUCT_HOT)
-                      <img src="{{ asset('templates/'.sc_store('template').'/images/home/hot.png') }}" class="new" alt="" />
+                      <img src="{{ asset('templates/'.sc_store('template').'/images/home/hot.png') }}" class="new" alt="" width='50px' />
                       @elseif($product_hot->kind == SC_PRODUCT_BUILD)
-                      <img src="{{ asset('templates/'.sc_store('template').'/images/home/bundle.png') }}" class="new" alt="" />
+                      <img src="{{ asset('templates/'.sc_store('template').'/images/home/bundle.png') }}" class="new" alt="" width='50px'/>
                       @elseif($product_hot->kind == SC_PRODUCT_GROUP)
-                      <img src="{{ asset('templates/'.sc_store('template').'/images/home/group.png') }}" class="new" alt="" />
+                      <img src="{{ asset('templates/'.sc_store('template').'/images/home/group.png') }}" class="new" alt="" width='50px' />
                       @endif
 
                       </div>

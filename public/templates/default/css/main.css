@@ -8,7 +8,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  background:;
+  background:100px;
   position: relative;
   font-weight:400px;
 }
@@ -879,7 +879,8 @@ h2.title {
 }
 
 .productinfo img{
-  width: 100%;
+  width: 230px;
+  height: 230px;
 }
 
 .productinfo{
@@ -989,6 +990,7 @@ h2.title {
 
 .recommended_items {
   overflow: hidden;
+  
 }
 
 #recommended-item-carousel .carousel-inner .item {
